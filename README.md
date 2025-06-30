@@ -27,3 +27,6 @@ Para instalar as dependências necessárias, utilize o arquivo `requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+## Vídeo
+
+[![Assista ao vídeo](https://img.youtube.com/vi/BmoBQtc0Fs8/0.jpg)](https://www.youtube.com/watch?v=BmoBQtc0Fs8)
