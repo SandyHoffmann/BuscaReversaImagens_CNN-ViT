@@ -6,14 +6,12 @@ Repositório de experimentos e implementação de algoritmos de busca reversa de
 
 É proposto a comparação no campo de busca reversa de imagens entre os algoritmos: CNN, DCT e LSH.
 
-- DCT: A Transformada Discreta de Cosseno (DCT) é uma técnica utilizada no hash perceptivo que converte dados do dominio do espaço para o dominio da frequencia. 
-
-- LSH: O Hash Sensível à Localidade (LSH) é um algoritmo de particionamento de dados, limitando o espaço de busca e os representando em uma menor dimensão.
-
 - CNN: As Redes Neurais Convolucionais (CNNs) são uma arquitetura de rede neural projetada para processar dados em grade, como imagens.
 
-## Uso
+- ViT: O Vision Transformer (ViT) é uma arquitetura baseada em mecanismos de atenção (transformers) adaptada para processar imagens, dividindo-as em patches e tratando-os como sequências.
 
+## Uso
+- Após instalar as bibliotecas necessárias (no requirements.txt), veja o notebook busca_reversa_imagens_cnn_vit.ipynb
 - Se quiser colocar seu próprio banco de imagens:
     - Coloque as imagens em uma pasta chamada "original_images"
     - Rode o script `variacoes_imagens.py`, este irá criar as imagens com as variações desejadas e colocar na pasta "images"
